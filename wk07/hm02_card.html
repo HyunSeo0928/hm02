@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title>hm02 : CSS3 advanced</title>
+		<style>
+			div {
+display : inline-block;
+position : absolute; /* 절대 배치 */
+border : 1px solid white;
+}
+div > p {
+display : inline-block; /* div의 자식 p */
+position : absolute; /* 절대 배치 */
+height : 20px;
+width : 15px;
+background : Black;
+}
+			#fixed {
+				position: fixed;
+				top: 70px;
+				left: 10px;
+				width: 100px;
+				padding: 5px;
+				background: blueviolet;
+				color: white;
+			}
+			#fixed2 {
+				position: relative;
+				bottom: 0px;
+				left:10px;
+				width: 100px;
+				padding: 5px;
+				background: yellow;
+				color: black;
+			}
+		</style>
+		<script></script>
+	</head>
+
+	<body>
+		<!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+		<h3>Merry Christmas!</h3>
+		<hr>
+		<img src="media/christmastree.png"
+		width="300" height="300"
+		alt="크리스마스 트리">
+		<div id="fixed">
+			파티에 초대 합니다!!
+			
+			<p style="left:50px; top:60px">M</p>
+			<p style="left:90px; top:80px">E</p>
+			<p style="left:130px; top:100px">R</p>
+			<p style="left:90px; top:120px">R</p>
+			<p style="left:50px; top:140px">Y</p>
+			<p style="left:90px; top:160px">X</p>
+			<p style="left:130px; top:180px">-</p>
+			<p style="left:90px; top:200px">M</p>	
+			<p style="left:50px; top:220px">A</p>
+			<p style="left:90px; top:240px">S</p>
+			
+
+
+
+		</div>
+		<div id="fixed2">
+			hmn02, 김현서
+		</div>
+	</body>
+
+</html>
+
